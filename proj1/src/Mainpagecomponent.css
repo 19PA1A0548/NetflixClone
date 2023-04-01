@@ -1,0 +1,42 @@
+.mainpagecomponent__main{
+    display: flex;
+    color: white;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.mainpagecomponent__left{
+    width: 50%;
+    height: 200px;
+    padding: 150px 0px 150px 150px;
+}
+.mainpagecomponent__left :nth-child(1){
+    font-size: 45px;
+    font-weight: bolder;
+}
+.mainpagecomponent__left :nth-child(2){
+    font-size: 25px;
+    margin-top: 15px;
+}
+.mainpagecomponent__right{
+    /* background-color: red; */
+    width: 50%;
+}
+.mainpagecomponent__rightinside{
+    margin-top: 50px;
+    height: 60%;
+    width: 100%;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mainpagecomponent__rightinside video{
+    width: 50%;
+    margin-left: 58px;
+    margin-top: 65px;
+}
+.borderline{
+    height: 10px;
+    width: 100%;
+    background-color: #232323;
+}

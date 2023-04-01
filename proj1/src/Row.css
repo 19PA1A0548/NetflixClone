@@ -1,0 +1,93 @@
+.row{
+    margin-left: 20px;
+    color: white;
+}
+.row__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+.row__poster{
+    object-fit: contain;
+    max-height: 100px;
+    width: 100%;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+.row__poster:hover{
+    transform: scale(1.08);
+}
+.row__posterLarge{
+    max-height: 250px;
+}
+.content {
+    margin-top: 40px;
+    height: 450px;
+    position: relative;
+}
+
+.background {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    background: black;
+    width: 40%;
+    position: relative;
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.left:before {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right,#000,transparent);
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 275px;
+}
+
+.right {
+    /* background-image: url("https://image.tmdb.org/t/p/original//iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg");
+    background-size: cover; */
+    width: 60%;
+    color: white;
+}
+
+.content-container {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px
+}
+.playbtn{
+    background-color: red;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.newplaybtn{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.moviedescri{
+    margin-top: 10px;
+}
+.btnscontainer{
+    margin-top: 20px;
+}

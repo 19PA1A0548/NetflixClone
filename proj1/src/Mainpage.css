@@ -1,0 +1,80 @@
+.mainpage__header{
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("../public/mainhomepage.jpg");
+    height: 100vh;
+    width: 100%;
+}
+.mainpage__logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgba(229, 9, 20, 1);
+    fill: currentColor;
+}
+.mainpage__headertop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.mainpage__headertop svg{
+    margin-left: 150px;
+}
+.mainpage__headertop button{
+    background-color: #E50914;
+    color: white;
+    border: transparent;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+.mainpage__headermiddle{
+    margin-top: 200px;
+    color: white;
+    /* background-color: red; */
+    text-align: center;
+}
+.mainpage__headermiddle p{
+    margin-bottom: 10px;
+}
+.mainpage__headermiddle p:first-child{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.mainpage__headermiddle p:nth-child(2){
+    font-size: 25px;
+}
+.mainpage__headermiddle p:last-child{
+    font-size: 20px;
+}
+.mainpage__headerend{
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.mainpage__headerend input{
+    width: 200px;
+    background: transparent;
+    padding: 2px 15px;
+    height: 50px;
+    width: 350px;
+    color: white;
+    border: 1px solid #B8B9BA;
+    border-radius: 3px;
+    margin-right: 10px;
+    background: rgb(0 0 0 / 40%);
+}
+::placeholder{
+    color: #B8B9BA;
+}
+.mainpage__headerend button{
+    color: white;
+    background-color: #E50914;
+    border: transparent;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 13px 25px;
+}
